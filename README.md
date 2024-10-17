@@ -1,37 +1,44 @@
-# COVID-19-Vaccination-Impact-Analysis
-Project Overview
-This project investigates the correlation between COVID-19 vaccination rates and the number of new 
-cases and deaths recorded in various countries during the year 2022. The analysis is essential for 
-understanding the effectiveness of vaccination campaigns and can provide valuable insights for 
-policymakers and public health officials.
-Research Questions
-1. How do changes in COVID-19 vaccination rates correlate with changes in new cases 
-amongdifferent countries in 2022?
-2. How do changes in COVID-19 vaccination rates correlate with changes in deaths among 
-differentcountries in 2022?
-Methodology
-- Data Preprocessing: Involves cleaning and preparing the dataset for analysis.
-- Exploratory Data Analysis (EDA): Includes generating descriptive statistics, visualizingrelationships, 
-and identifying patterns.
-- Regression Analysis: Employs multiple linear regression models to examine the relationshipbetween 
-vaccination rates and COVID-19 outcomes.
-- Time-Series Analysis: Utilizes ARIMA models to analyze temporal patterns in the data.
-Dataset
-The dataset used for this analysis is the 'owid-covid-data.csv', sourced from Our World in Data.
-Key Results
-- Identified significant correlations between vaccination rates and reductions in COVID-19 cases 
-anddeaths.
-- Highlighted country-specific differences in the effectiveness of vaccination campaigns.
-Conclusion
-This analysis provides a data-driven approach to understanding the impact of COVID-19 vaccination 
-on public health outcomes globally. The findings can guide future vaccination strategies and public 
-health policies.
-How to Use This Repository
-1. Clone the repository: `git clone <repository-url>`
-2. Install necessary dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter Notebook to reproduce the analysis.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-- Data provided by Our World in Data
-- References to previous research and methodologies as detailed in the project's documentation
+# COVID-19 Vaccination Impact Analysis
+
+## Project Overview
+This project aims to analyze how changes in COVID-19 vaccination rates correlate with the number of new cases and deaths among different countries in 2022. The analysis provides insights into the effectiveness of vaccination campaigns across various regions.
+
+## Dataset
+The dataset used in this project is sourced from [Our World in Data](https://covid.ourworldindata.org/data/owid-covid-data.csv). It contains information about COVID-19 cases, deaths, and vaccination rates globally.
+
+## Research Questions
+1. How do changes in COVID-19 vaccination rates relate to new cases in 2022?
+2. How do changes in vaccination rates affect the number of deaths due to COVID-19?
+
+## Methodology
+This project employs:
+ **Regression Analysis**: To assess the relationship between vaccination rates, new cases, and deaths.
+ **Time-Series Analysis**: To detect trends, seasonality, and residual effects of vaccination campaigns.
+
+### Key Steps
+1. **Data Preprocessing**: Cleaning and formatting the data, handling missing values.
+2. **Exploratory Data Analysis (EDA)**: Generating descriptive statistics, visualizations (scatter plots, histograms).
+3. **Regression Models**: Building and evaluating linear regression models to find correlations.
+4. **Time-Series Models**: Applying ARIMA models to identify patterns over time.
+
+## Results
+The analysis reveals that vaccination rates have a significant impact on reducing new COVID-19 cases and deaths across multiple countries. Countries with higher vaccination rates experienced fewer new cases and deaths in 2022.
+
+## Visualizations
+This project includes:
+ Histograms to represent vaccination rates and their effects.
+ Scatter plots showing correlations between vaccination density and changes in cases and deaths.
+ Time-series plots showing the trends over time.
+
+## Conclusion
+The findings suggest that higher vaccination rates are associated with a decline in new cases and deaths, contributing to the global fight against COVID-19. These insights can help in planning more effective public health policies.
+
+## How to Run This Project
+1. Clone this repository.
+2. Install necessary Python libraries (requirements.txt is provided).
+3. Open and run the Jupyter notebook `Covid 19.ipynb`.
+
+## Technologies Used
+ Python (Pandas, NumPy, Scikit-learn, Statsmodels)
+ Jupyter Notebook
+ Data visualization (Matplotlib, Seaborn)
