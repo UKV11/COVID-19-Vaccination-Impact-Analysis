@@ -11,7 +11,6 @@ The dataset used in this project is sourced from [Our World in Data](https://cov
 2. How do changes in vaccination rates affect the number of deaths due to COVID-19?
 
 ## Methodology
-This project employs:
  **Regression Analysis**: To assess the relationship between vaccination rates, new cases, and deaths.
  **Time-Series Analysis**: To detect trends, seasonality, and residual effects of vaccination campaigns.
 
